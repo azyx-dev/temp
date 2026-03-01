@@ -9,14 +9,53 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <Button android:id="@+id/btnLinear" android:text="Linear Layout"/>
-        <Button android:id="@+id/btnRelative" android:text="Relative Layout"/>
-        <Button android:id="@+id/btnConstraint" android:text="Constraint Layout"/>
-        <Button android:id="@+id/btnFrame" android:text="Frame Layout"/>
-        <Button android:id="@+id/btnScroll" android:text="Scroll View"/>
-        <Button android:id="@+id/btnTable" android:text="Table Layout"/>
-        <Button android:id="@+id/btnColor" android:text="Color Change Program"/>
-        <Button android:id="@+id/btnProfile" android:text="Profile Program"/>
+        <Button
+            android:id="@+id/btnLinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Linear Layout" />
+
+        <Button
+            android:id="@+id/btnRelative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Relative Layout" />
+
+        <Button
+            android:id="@+id/btnConstraint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Constraint Layout" />
+
+        <Button
+            android:id="@+id/btnFrame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Frame Layout" />
+
+        <Button
+            android:id="@+id/btnScroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scroll View" />
+
+        <Button
+            android:id="@+id/btnTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Table Layout" />
+
+        <Button
+            android:id="@+id/btnColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Color Change Program" />
+
+        <Button
+            android:id="@+id/btnProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile Program" />
 
     </LinearLayout>
 </ScrollView>

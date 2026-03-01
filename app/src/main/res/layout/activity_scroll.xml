@@ -9,13 +9,32 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <TextView android:text="ScrollView Example" android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ScrollView Example"
+            android:textSize="20sp" />
 
-        <TextView android:text="Item 1"/>
-        <TextView android:text="Item 2"/>
-        <TextView android:text="Item 3"/>
-        <TextView android:text="Item 4"/>
-        <TextView android:text="Item 5"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item 1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item 2" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item 3" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item 4" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item 5" />
 
     </LinearLayout>
 </ScrollView>
